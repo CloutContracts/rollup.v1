@@ -7,4 +7,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae gravida di
 //This is where the code will go
 ```
 
-Read the Whitepaper [here](https://github.com/CloutContracts/whitepaper/tree/1.0)
+*Read the whitepaper [here](https://github.com/CloutContracts/whitepaper/tree/1.0)*
