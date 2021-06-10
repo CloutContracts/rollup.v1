@@ -6,3 +6,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae gravida di
 ```Solidity
 //This is where the code will go
 ```
+
+Read the Whitepaper [here](https://github.com/CloutContracts/whitepaper/tree/1.0)
