@@ -10,6 +10,7 @@ contract TestToken is ERC20, Ownable {
     /**
      * @dev assign totalSupply to account creating this contract */
     constructor() public {
-        _mint(msg.sender, 10000000000000000000000);
+    constructor() public ERC20("CloutContracts", "CCS"){
+        _mint(msg.sender, 1110000000000000000000000);
     }
 }
