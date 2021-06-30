@@ -4,9 +4,9 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/ownership/Ownable.sol";
 
 /**
- * @title CloutContracts is a basic ERC20 Token
+ * @title Token is a basic ERC20 Token
  */
-contract CloutContracts is ERC20, Ownable {
+contract Token is ERC20, Ownable {
     /**
      * @dev assign totalSupply to account creating this contract */
     constructor() public {
