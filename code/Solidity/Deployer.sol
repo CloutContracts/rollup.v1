@@ -3,7 +3,7 @@ import { ParamManager } from "./libs/ParamManager.sol";
 import { NameRegistry as Registry } from "./NameRegistry.sol";
 import { IncrementalTree } from "./IncrementalTree.sol";
 import { DepositManager } from "./DepositManager.sol";
-import { TestToken } from "./Token.sol";
+import { CloutContracts } from "./Token.sol";
 import { Rollup } from "./rollup.sol";
 import { TokenRegistry } from "./TokenRegistry.sol";
 import { Logger } from "./logger.sol";
