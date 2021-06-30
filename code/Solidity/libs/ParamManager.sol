@@ -9,8 +9,8 @@ library ParamManager {
         return keccak256("withdraw_manager");
     }
 
-    function TEST_TOKEN() public pure returns (bytes32) {
-        return keccak256("test_token");
+    function TOKEN() public pure returns (bytes32) {
+        return keccak256("token");
     }
 
     function POB() public pure returns (bytes32) {
