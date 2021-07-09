@@ -25,17 +25,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vaibhavchellani/BOPR-contracts.git"
+    "url": "git+https://github.com/CloutContracts.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "OPNL-2",
   "bugs": {
-    "url": "https://github.com/vaibhavchellani/BOPR-contracts/issues"
+    "url": "https://github.com/CloutContracts/issues"
   },
   "config": {
     "mnemonics": "clock radar mass judge dismiss just intact mind resemble fringe diary casino"
   },
-  "homepage": "https://github.com/vaibhavchellani/BOPR-contracts#readme",
+  "homepage": "https://cloutcontracts.net",
   "dependencies": {
     "@types/bignumber.js": "^5.0.0",
     "@types/chai-as-promised": "^7.1.2",
