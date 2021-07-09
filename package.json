@@ -28,7 +28,7 @@
     "url": "git+https://github.com/CloutContracts.git"
   },
   "author": "",
-  "license": "OPNL-2",
+  "license": "ISC or OPNL-2",
   "bugs": {
     "url": "https://github.com/CloutContracts/issues"
   },
