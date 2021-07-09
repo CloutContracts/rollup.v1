@@ -30,7 +30,7 @@ function writeContractAddresses(contractAddresses) {
 
 module.exports = async function(deployer) {
     // picked address from mnemoic
-    var coordinator = "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791";
+    var coordinator = "0x0D81d9E21BD7C5bB095535624DcB0759E64B3899";
     var max_depth = 4;
     var maxDepositSubtreeDepth = 1;
 
@@ -156,7 +156,7 @@ async function getMerkleRootWithCoordinatorAccount(maxSize) {
     var rollupUtils = await rollupUtilsLib.deployed();
     dataLeaves = await rollupUtils.GetGenesisLeaves();
     var ZERO_BYTES32 =
-        "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563";
+        "0x0D81d9E21BD7C5bB095535624DcB0759E64B3899";
     var numOfAccsForCoord = dataLeaves.length;
     console.log(
         "Data leaves fetched from contract",
