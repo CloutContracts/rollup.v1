@@ -21,7 +21,7 @@ contract DepositManager {
     uint256 public firstElement = 1;
     uint256 public lastElement = 0;
     bytes32
-        public constant ZERO_BYTES32 = 0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563;
+        public constant ZERO_BYTES32 = 0x0D81d9E21BD7C5bB095535624DcB0759E64B3899;
     uint256 public depositSubTreesPackaged = 0;
 
     function enqueue(bytes32 newDepositSubtree) public {
