@@ -8,8 +8,11 @@ import "@openzeppelin/contracts/ownership/Ownable.sol";
  */
 contract Token is ERC20, Ownable {
     /**
-     * @dev assign totalSupply to account creating this contract */
-    constructor() public ERC20("CloutContracts", "CCS"){
+     * @dev assign totalSupply to account creating this contract */    
+    string  public name = "CloutContracts";
+    string  public symbol = "CCS"; 
+    constructor() public 
+    {
         _mint(msg.sender, 1110000000000000000000000);
     }
 }
