@@ -1,10 +1,6 @@
 require("ts-node/register");
 
 const HDWalletProvider = require("truffle-hdwallet-provider");
-
-const MNEMONIC =
-  process.env.MNEMONIC ||
-  "clock radar mass judge dismiss just intact mind resemble fringe diary casino";
 const API_KEY = process.env.API_KEY;
 
 module.exports = {
@@ -14,6 +10,7 @@ module.exports = {
       host: "127.0.0.1", // Localhost (default: none)
       port: 8545, // Standard Ethereum port (default: none)
       network_id: "*", // Any network (default: none),
+      from: 0x0D81d9E21BD7C5bB095535624DcB0759E64B3899,   
       gas: 8000000,
     },
     ropsten: {
