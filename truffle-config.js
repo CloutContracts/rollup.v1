@@ -13,16 +13,16 @@ module.exports = {
       gas: 8000000,
       from: 0x0D81d9E21BD7C5bB095535624DcB0759E64B3899      
     },
-    ropsten: {
-      provider: function () {
-        return new HDWalletProvider(
-          MNEMONIC,
-          `https://ropsten.infura.io/v3/${API_KEY}`
-        );
-      },
-      network_id: "*",
-      gas: 8000000,
-    },
+//    ropsten: {
+//      provider: function () {
+//        return new HDWalletProvider(
+//          MNEMONIC,
+//          `https://ropsten.infura.io/v3/${API_KEY}`
+//        );
+//      },
+//     network_id: "*",
+//     gas: 8000000,
+//    },
   },
 
   // Set default mocha options here, use special reporters etc.
