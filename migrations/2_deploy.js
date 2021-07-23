@@ -107,12 +107,12 @@ module.exports = async function(deployer) {
     );
 
     // deploy test token
-    const testTokenInstance = await deployAndRegister(
+    const TokenInstance = await deployAndRegister(
         deployer,
-        testTokenContract,
+        TokenContract,
         [],
         [],
-        "TEST_TOKEN"
+        "TOKEN"
     );
 
     const root = await getMerkleRootWithCoordinatorAccount(max_depth);
