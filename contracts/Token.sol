@@ -13,6 +13,6 @@ contract Token is ERC20, Ownable {
     string  public symbol = "CCS"; 
     constructor() public 
     {
-        _mint(msg.sender, 1110000000000000000000000);
+        _mint(msg.sender, 111000000);
     }
 }
