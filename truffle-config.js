@@ -1,50 +1,28 @@
-require("ts-node/register");
-
-const HDWalletProvider = require("truffle-hdwallet-provider");
-const API_KEY = process.env.API_KEY;
+var HDWalletProvider = require("truffle-hdwallet-provider");
+const MNEMONIC = 'ENTER PHRASE HERE';
 
 module.exports = {
-  test_file_extension_regexp: /.*\.ts$/,
   networks: {
     development: {
-      host: "127.0.0.1", // Localhost (default: none)
-      port: 8545, // Standard Ethereum port (default: none)
-      network_id: "*", // Any network (default: none),
-      gas: 8000000,
-      from: 0x0D81d9E21BD7C5bB095535624DcB0759E64B3899      
+      host: "127.0.0.1",
+      port: 8545,
+      network_id: "*"
     },
-  ropsten: {
-      provider: function () {
-        return new HDWalletProvider(
-          MNEMONIC,
-          `https://ropsten.infura.io/v3/${API_KEY}`
-        );
+    mainnet: {
+      provider: function() {
+        return new HDWalletProvider(MNEMONIC, "https://mainnet.infura.io/v3/-KEYHERE)
       },
-     network_id: "*",
-     gas: 8000000,
-    },
-  },
-
-  // Set default mocha options here, use special reporters etc.
-  mocha: {
-    reporter: "eth-gas-reporter",
-    useColors: true,
-  },
-
-  // Configure your compilers
-  compilers: {
-    solc: {
-      version: "0.5.15", // Fetch exact version from solc-bin (default: truffle's version)
-      docker: false, // Use "0.5.1" you've installed locally with docker (default: false)
-      settings: {
-        // See the solidity docs for advice about optimization and evmVersion
-        optimizer: {
-          enabled: false,
-          runs: 200,
-        },
-        evmVersion: "byzantium",
-      },
-    },
-  },
-  plugins: ['solidity-coverage'],
+      network_id: 1,
+      timeoutBlocks: 4000, 
+      skipDryRun: true,
+      gasPrice: 34000000000,         
+      gas: 14000000
+    }
+   },
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  api_keys: {
+    etherscan: 'KEY HERE'
+  }
 };
