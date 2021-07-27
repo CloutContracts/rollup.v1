@@ -4,7 +4,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae gravida di
 
 **Testnet:** [0x5D0778eDE3867c69590FE611fCF8e233887CB655](https://ropsten.etherscan.io/address/0x5D0778eDE3867c69590FE611fCF8e233887CB655) | [0xFa32465ddFC3628F8723fe7941F035a494bfbFf2](https://ropsten.etherscan.io/address/0xfa32465ddfc3628f8723fe7941f035a494bfbff2) \
 **Mainnet:** [0x1da4858ad385cc377165a298cc2ce3fce0c5fd31](https://etherscan.io/address/0x1da4858ad385cc377165a298cc2ce3fce0c5fd31) | [0x2C7716BDf98e181df4CF1b40aD7648A40EE813b9](https://etherscan.io/address/0x2c7716bdf98e181df4cf1b40ad7648a40ee813b9) \
-**ETC Net:** \
+**ETC Net:** [0x9186ff77866DfD1007429F552e48C6d1A927297A](https://blockscout.com/etc/mainnet/address/0x9186ff77866DfD1007429F552e48C6d1A927297A) | [0x6f6ed4820E44128794D22eB0b8B5c035a8Eac4E6](https://blockscout.com/etc/mainnet/address/0x6f6ed4820E44128794D22eB0b8B5c035a8Eac4E6) \
 **BNB Peg:**
 
 ### Code:
