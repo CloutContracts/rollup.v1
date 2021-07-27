@@ -17,12 +17,29 @@ module.exports = {
       skipDryRun: true,
       gasPrice: 34000000000,         
       gas: 14000000
+    },
+    bsc: {
+      provider: () => new HDWalletProvider(MNEMONIC, `https://bsc-dataseed1.binance.org`),
+      network_id: 56,
+      confirmations: 10,
+      timeoutBlocks: 500,
+      gasPrice: 84000000000,
+      skipDryRun: true
+    },
+    etc: {
+      provider: () => new HDWalletProvider(MNEMONIC, `https://www.ethercluster.com/etc`),
+      network_id: 1,
+      timeoutBlocks: 500,
+      gasPrice: 5000000000,
+      skipDryRun: true
     }
    },
   plugins: [
     'truffle-plugin-verify'
   ],
+  
   api_keys: {
-    etherscan: 'KEY HERE'
+    etherscan: 'KEY HERE',
+    bscscan: 'KEY HERE',
   }
 };
