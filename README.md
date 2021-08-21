@@ -1,6 +1,6 @@
 ![CloutContractsLogo](https://avatars.githubusercontent.com/u/84701387?s=200&v=4.png)
 # Rollup v1.0
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae gravida diam, at sollicitudin lectus. Donec porttitor lorem vitae neque euismod, nec dignissim dui egestas. Cras interdum accumsan pretium. Curabitur eu volutpat nunc. Donec convallis, leo non laoreet tristique, velit erat commodo ligula, vel pulvinar sapien neque id augue. Nullam nisl augue, aliquam eu lacus id, placerat fringilla massa. Nam egestas a lacus commodo auctor. Integer urna nibh, aliquam sed odio ultrices, tincidunt dignissim tellus.
+[CloutContracts](https://cloutcontracts.net) is a next gen blockchain development platform targeting creators and social influencers looking to quickly deploy their own network, or even professional blockchain architects. We are interplorabile and multichain compatible. Not only this, but we are the native token behind a high speed rollup layer.
 
 ###### Test Net: [0x5D0778eDE3867c69590FE611fCF8e233887CB655](https://ropsten.etherscan.io/address/0x5D0778eDE3867c69590FE611fCF8e233887CB655) | [0xFa32465ddFC3628F8723fe7941F035a494bfbFf2](https://ropsten.etherscan.io/address/0xfa32465ddfc3628f8723fe7941f035a494bfbff2)
 ###### Main Net: [0x1da4858ad385cc377165a298cc2ce3fce0c5fd31](https://etherscan.io/address/0x1da4858ad385cc377165a298cc2ce3fce0c5fd31) | [0x2C7716BDf98e181df4CF1b40aD7648A40EE813b9](https://etherscan.io/address/0x2c7716bdf98e181df4cf1b40ad7648a40ee813b9)
