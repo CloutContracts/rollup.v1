@@ -23,19 +23,4 @@ import { Governance } from "./Governance.sol";
 ...
 ```
 
-## Instructions
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Cras viverra diam ut bibendum condimentum.
-
-    Duis sollicitudin sem quis lacus vestibulum ultricies.
-    Praesent posuere velit non ante vestibulum feugiat.
-    Vestibulum pellentesque neque eget mi aliquam, quis tempor mauris sollicitudin.
-    Nunc hendrerit augue ut augue vulputate, vel tempus odio placerat.
-
-    Etiam pretium massa eget risus ullamcorper ultrices id euismod tellus.
-    Vestibulum luctus mi eu quam imperdiet, vitae faucibus tellus elementum.
-    Donec ullamcorper lectus vitae condimentum tempus.
-    Donec faucibus metus ut euismod placerat.
-
-
 *Read the whitepaper [here](https://github.com/CloutContracts/whitepaper/tree/1.0)*
