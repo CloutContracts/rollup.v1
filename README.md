@@ -23,17 +23,19 @@ import { Governance } from "./Governance.sol";
 ...
 ```
 ## Instructions
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Cras viverra diam ut bibendum condimentum.
+*For running locally*
 
-    Duis sollicitudin sem quis lacus vestibulum ultricies.
-    Praesent posuere velit non ante vestibulum feugiat.
-    Vestibulum pellentesque neque eget mi aliquam, quis tempor mauris sollicitudin.
-    Nunc hendrerit augue ut augue vulputate, vel tempus odio placerat.
+    git clone https://github.com/CloutContracts/node.git
+    cd node
+    
+    make build
+    docker run --name=mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=<your-password> -d mysql
+    docker run --name myadmin -d --link mysql:db -p 8080:80 phpmyadmin/phpmyadmin
 
-    Etiam pretium massa eget risus ullamcorper ultrices id euismod tellus.
-    Vestibulum luctus mi eu quam imperdiet, vitae faucibus tellus elementum.
-    Donec ullamcorper lectus vitae condimentum tempus.
-    Donec faucibus metus ut euismod placerat.
+    make init
+    
+    Update the parameters in the config.toml file
+    make migration-up
+    make start
     
 *Read the whitepaper [here](https://github.com/CloutContracts/whitepaper/tree/1.0)*
