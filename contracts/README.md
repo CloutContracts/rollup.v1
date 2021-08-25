@@ -1,7 +1,3 @@
-# Coming soon!
+# Contracts
 
-Currently we are planning on potentially integrating the [OPRHub protocol](https://thehubbleproject.github.io/docs/)
-
-**To-do:** \
-Test [config.toml](https://github.com/thehubbleproject/commander) \
-Add runtime instructions and interfacing software
+Currently, the smart contracts powering [CloutContracts](https://www.cloutcontracts.net) is an implementation of the same contracts used from the [OPRHub protocol](https://thehubbleproject.github.io/docs/). These smart contracts are implemented as part of the barebones backend.
