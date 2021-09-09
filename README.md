@@ -1,4 +1,4 @@
-![CCLOGO](https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-128x128.png)
+![CCSLOGO](https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-128x128.png)
 # Rollup v1.0
 [CloutContracts](https://cloutcontracts.net) is a next gen blockchain development platform targeting creators and social influencers looking to quickly deploy their own network, or even professional blockchain architects. We are interplorabile and multichain compatible. Not only this, but we are the native token behind a high speed rollup layer.
 
